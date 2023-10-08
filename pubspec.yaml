@@ -4,7 +4,7 @@ description: A new Flutter application.
 publish_to: none
 version: 1.0.0+1
 environment:
-  sdk: '>=2.14.0 <3.0.0'
+  sdk: ">=2.14.0 <3.0.0"
 dependencies:
   flutter:
     sdk: flutter
@@ -40,14 +40,14 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-  - assets/
-  - google_fonts/
+    - assets/
+    - google_fonts/
 flutter_icons:
   android: true
   ios: false
   image_path: assets/app_icon.png
 flutter_native_splash:
-  color: '#141414'
+  color: "#141414"
   image: assets/app_icon.png
   ios: false
   web: false
